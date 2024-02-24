@@ -1,0 +1,4 @@
+add nav bar links
+after db connections add
+take icons from bootstrap page
+page insights

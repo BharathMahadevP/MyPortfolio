@@ -1,0 +1,183 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+#navbarSupportedContent {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.733);
+}
+
+#navbarSupportedContent ul {
+  padding-left: 250px;
+}
+
+#myphoto img {
+  max-width: 500px; /* Set the maximum width */
+  max-height: 400px; /* Set the maximum height */
+  width: auto; /* Let the width adjust automatically */
+  height: auto;
+  border-radius: 0.4cm;
+}
+
+.intro {
+  gap: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+span {
+  color: aqua;
+}
+
+.intro_icons {
+  background-color: white;
+  width: fit-content;
+  border-radius: 0.2cm;
+}
+
+.intro_icons img {
+  height: 30px;
+  width: 30px;
+}
+
+.resume {
+  background-color: aqua;
+  width: fit-content;
+  border-radius: 0.5cm;
+}
+
+.resume > a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+}
+
+.resume:hover {
+  background-color: rgb(100, 202, 33);
+}
+
+.aboutme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: black;
+  color: white;
+}
+
+.aboutme_img > img {
+  max-width: 500px; /* Set the maximum width */
+  max-height: 400px; /* Set the maximum height */
+  width: auto; /* Let the width adjust automatically */
+  height: auto;
+  border-top-right-radius: 1cm;
+  border-bottom-left-radius: 1cm;
+  border: 2px solid aqua;
+  padding: 4px;
+}
+
+.aboutme div:nth-child(2) {
+  width: 50%;
+}
+
+.aboutme div:nth-child(2) > h2 {
+  font-weight: 700;
+}
+
+.tecskills {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+.progressbars {
+  background-color: black;
+  color: white;
+  padding-left: 25px;
+}
+
+.progressbars div:nth-child(1) > ul {
+  list-style-type: none;
+}
+
+.progress {
+  width: 65%;
+  margin-bottom: 15px;
+}
+
+.progressbars div:nth-child(1) > ul li {
+  margin-bottom: 8px;
+}
+
+.skill_icon {
+  max-height: 20px;
+  max-width: fit-content;
+  padding-right: 10px;
+}
+
+.non-techskills {
+  background-color: black;
+  color: white;
+}
+
+.non-techskills > ul {
+  list-style-type: none;
+}
+
+.projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  background-image: url("./Images/istockphoto-1348823400-612x612.jpg");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: difference;
+  color: white;
+}
+
+.projects > p,
+.projects > h3 {
+  color: black;
+  font-weight: 500;
+}
+
+.footer {
+  margin-top: 30px;
+  background-color: aqua;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  border-start-start-radius: 10px;
+}
+
+.footer div:nth-child(2) > a {
+  text-decoration: none;
+  padding: 0;
+}
+
+.footer div:nth-child(1) h3:nth-child(2) {
+  color: black;
+}
+
+.copyright,
+.footer div:nth-child(2) > p {
+  margin: 0;
+}
+
+.thankscard {
+  font-family: "Brush Script MT", cursive;
+}
