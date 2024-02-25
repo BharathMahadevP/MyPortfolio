@@ -13,7 +13,9 @@ body {
 }
 
 .navbar {
-  background-color: rgba(34, 32, 32, 0.733);
+  background-color: rgb(34, 32, 32);
+  /* position: fixed;
+  width: 100%; */
 }
 
 #navbarSupportedContent ul {
@@ -63,6 +65,10 @@ span {
   color: rgb(255, 255, 255);
   font-weight: 500;
 }
+.navbar-toggler-icon{
+  background-color: rgba(255, 255, 255, 0.344);
+  border-radius: 2px;
+}
 
 .resume:hover {
   background-color: rgb(100, 202, 33);
@@ -75,6 +81,7 @@ span {
   gap: 50px;
   background-color: black;
   color: white;
+  margin-top: 100px;
 }
 
 .aboutme_img > img {
@@ -141,7 +148,11 @@ span {
   align-items: center;
   justify-content: center;
   gap: 25px;
-  background-image: url("./Images/istockphoto-1348823400-612x612.jpg");
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.26),
+      rgba(255, 255, 255, 0.259)
+    ),
+    url("./Images/istockphoto-1348823400-612x612.jpg");
   background-size: cover;
   background-position: center;
   background-blend-mode: difference;
