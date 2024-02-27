@@ -125,17 +125,17 @@ span {
 
 .progress {
   width: 65%;
-  margin-bottom: 15px;
 }
 
 .progressbars div:nth-child(1) > ul li {
   margin-bottom: 8px;
+  margin-top: 8px;
 }
 
 .skill_icon {
   max-height: 20px;
-  max-width: fit-content;
-  padding-right: 10px;
+  max-width:  20px;
+  margin-right: 10px;
 }
 
 .non-techskills {
