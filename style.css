@@ -78,7 +78,7 @@ span {
   background-color: rgb(100, 202, 33);
 }
 
-.aboutme {
+.aboutparent {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -86,6 +86,7 @@ span {
   background-color: black;
   color: white;
   margin-top: 100px;
+  margin: 5%;
 }
 
 .aboutme_img > img {
@@ -98,6 +99,11 @@ span {
   border: 2px solid aqua;
   padding: 4px;
 }
+/* .aboutparent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
 
 .aboutme div:nth-child(2) {
   width: 50%;
@@ -160,12 +166,13 @@ span {
   background-size: cover;
   background-position: center;
   background-blend-mode: difference;
-  color: white;
+  color: black;
+  font-weight: 700;
 }
 
 .projects > p,
 .projects > h3 {
-  color: black;
+  /* color: black; */
   font-weight: 500;
 }
 
