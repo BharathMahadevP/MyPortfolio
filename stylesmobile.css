@@ -1,0 +1,42 @@
+@media only screen and (max-width: 768px) {
+  .navbar {
+    width: 100%;
+  }
+
+  .intro {
+    display: flex;
+    flex-direction: column-reverse;
+    /* margin: 4%; */
+  }
+
+  .introcontent-mob {
+    padding: 5%;
+  }
+
+  .aboutparent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0px;
+    width: 100vw;
+    margin-bottom: 5%;
+  }
+
+  .about-content {
+    padding: 0;
+    width: fit-content;
+    margin: 5%;
+  }
+  .about-content > p {
+    margin: 0%;
+  }
+  .progress {
+    width: 90%;
+  }
+
+  .projects{
+    display: flex;
+    flex-direction: column;
+  }
+}
