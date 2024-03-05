@@ -154,19 +154,19 @@ span {
 }
 
 .projects {
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 25px;
-  background: linear-gradient(
+  justify-content: center; */
+  /* gap: 25px; */
+  /* background: linear-gradient(
       rgba(255, 255, 255, 0.26),
       rgba(255, 255, 255, 0.259)
     ),
-    url("./Images/istockphoto-1348823400-612x612.jpg");
+    url("./Images/istockphoto-1348823400-612x612.jpg"); */
   background-size: cover;
   background-position: center;
   background-blend-mode: difference;
-  color: black;
+  /* color: black; */
   font-weight: 700;
 }
 
@@ -175,7 +175,7 @@ span {
   /* color: black; */
   font-weight: 500;
 }
-
+ 
 .footer {
   margin-top: 30px;
   background-color: aqua;
