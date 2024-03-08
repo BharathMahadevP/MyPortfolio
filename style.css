@@ -140,7 +140,7 @@ span {
 
 .skill_icon {
   max-height: 20px;
-  max-width:  20px;
+  max-width: 20px;
   margin-right: 10px;
 }
 
@@ -168,6 +168,7 @@ span {
   background-blend-mode: difference;
   /* color: black; */
   font-weight: 700;
+  margin: 1%;
 }
 
 .projects > p,
@@ -175,31 +176,67 @@ span {
   /* color: black; */
   font-weight: 500;
 }
- 
+
 .footer {
-  margin-top: 30px;
-  background-color: aqua;
   display: flex;
-  gap: 30px;
-  justify-content: center;
   align-items: center;
-  border-start-start-radius: 10px;
+  justify-content: space-evenly;
+  height: 100%;
+  margin-bottom: 1%;
 }
 
-.footer div:nth-child(2) > a {
-  text-decoration: none;
-  padding: 0;
-}
-
-.footer div:nth-child(1) h3:nth-child(2) {
-  color: black;
-}
-
-.copyright,
-.footer div:nth-child(2) > p {
+#name,
+#email,
+#content {
+  background-color: black;
+  color: white;
+  padding: 2%;
+  width: 50%;
   margin: 0;
+  border: 1px solid white;
 }
 
-.thankscard {
-  font-family: "Brush Script MT", cursive;
+#content {
+  width: 100%;
+}
+
+.Getintouch {
+  /* border-right: 1px solid white; */
+  /* padding-right: 2%; */
+}
+
+.name-email {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2%;
+  gap: 2%;
+}
+
+.btn {
+  padding: 2%;
+  white-space: nowrap;
+  margin-top: 2%;
+}
+
+.suggest {
+  /* padding-right: 2%; */
+}
+
+#suggestion {
+  background-color: black;
+  color: white;
+  padding: 2%;
+  width: 100%;
+  margin: 0;
+  border: 1px solid white;
+}
+.suggest > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5%;
+  margin: 1%;
+}
+.suggest > div > div {
+  margin-bottom: 1%;
 }
