@@ -184,6 +184,9 @@ span {
   height: 100%;
   margin-bottom: 1%;
 }
+.Getintouch{
+  width: 50%;
+}
 
 #name,
 #email,
@@ -200,11 +203,6 @@ span {
   width: 100%;
 }
 
-.Getintouch {
-  /* border-right: 1px solid white; */
-  /* padding-right: 2%; */
-}
-
 .name-email {
   display: flex;
   justify-content: space-between;
@@ -217,9 +215,8 @@ span {
   white-space: nowrap;
   margin-top: 2%;
 }
-
-.suggest {
-  /* padding-right: 2%; */
+.suggest{
+  width: 30%;
 }
 
 #suggestion {
