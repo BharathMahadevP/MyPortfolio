@@ -35,8 +35,37 @@
     width: 90%;
   }
 
-  .projects{
+  .projects {
     display: flex;
     flex-direction: column;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    gap: 30px;
+  }
+
+  .Getintouch {
+    width: 100%;
+  }
+  .name-email {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  #name,
+  #email {
+    width: 100%;
+  }
+  footer-mail {
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+  }
+
+  .suggest {
+    width: 100%;
   }
 }

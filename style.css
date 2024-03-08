@@ -140,7 +140,7 @@ span {
 
 .skill_icon {
   max-height: 20px;
-  max-width:  20px;
+  max-width: 20px;
   margin-right: 10px;
 }
 
@@ -154,20 +154,21 @@ span {
 }
 
 .projects {
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 25px;
-  background: linear-gradient(
+  justify-content: center; */
+  /* gap: 25px; */
+  /* background: linear-gradient(
       rgba(255, 255, 255, 0.26),
       rgba(255, 255, 255, 0.259)
     ),
-    url("./Images/istockphoto-1348823400-612x612.jpg");
+    url("./Images/istockphoto-1348823400-612x612.jpg"); */
   background-size: cover;
   background-position: center;
   background-blend-mode: difference;
-  color: black;
+  /* color: black; */
   font-weight: 700;
+  margin: 1%;
 }
 
 .projects > p,
@@ -177,29 +178,62 @@ span {
 }
 
 .footer {
-  margin-top: 30px;
-  background-color: aqua;
   display: flex;
-  gap: 30px;
-  justify-content: center;
   align-items: center;
-  border-start-start-radius: 10px;
+  justify-content: space-evenly;
+  height: 100%;
+  margin-bottom: 1%;
+}
+.Getintouch{
+  width: 50%;
 }
 
-.footer div:nth-child(2) > a {
-  text-decoration: none;
-  padding: 0;
-}
-
-.footer div:nth-child(1) h3:nth-child(2) {
-  color: black;
-}
-
-.copyright,
-.footer div:nth-child(2) > p {
+#name,
+#email,
+#content {
+  background-color: black;
+  color: white;
+  padding: 2%;
+  width: 50%;
   margin: 0;
+  border: 1px solid white;
 }
 
-.thankscard {
-  font-family: "Brush Script MT", cursive;
+#content {
+  width: 100%;
+}
+
+.name-email {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2%;
+  gap: 2%;
+}
+
+.btn {
+  padding: 2%;
+  white-space: nowrap;
+  margin-top: 2%;
+}
+.suggest{
+  width: 30%;
+}
+
+#suggestion {
+  background-color: black;
+  color: white;
+  padding: 2%;
+  width: 100%;
+  margin: 0;
+  border: 1px solid white;
+}
+.suggest > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5%;
+  margin: 1%;
+}
+.suggest > div > div {
+  margin-bottom: 1%;
 }
